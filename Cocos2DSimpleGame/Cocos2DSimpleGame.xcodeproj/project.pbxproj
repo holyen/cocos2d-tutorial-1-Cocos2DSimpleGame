@@ -134,6 +134,14 @@
 		9EB6F9FB1726BDB100F05ED9 /* HelloWorldLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EB6F9FA1726BDB100F05ED9 /* HelloWorldLayer.m */; };
 		9EB6F9FE1726BDB100F05ED9 /* IntroLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EB6F9FD1726BDB100F05ED9 /* IntroLayer.m */; };
 		9EB6FA051726BEA000F05ED9 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EB6FA041726BEA000F05ED9 /* Default-568h@2x.png */; };
+		9EB6FA101726CA6500F05ED9 /* monster-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EB6FA071726CA6500F05ED9 /* monster-hd.png */; };
+		9EB6FA111726CA6500F05ED9 /* monster.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EB6FA081726CA6500F05ED9 /* monster.png */; };
+		9EB6FA121726CA6500F05ED9 /* player-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EB6FA091726CA6500F05ED9 /* player-hd.png */; };
+		9EB6FA131726CA6500F05ED9 /* player.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EB6FA0A1726CA6500F05ED9 /* player.png */; };
+		9EB6FA141726CA6500F05ED9 /* projectile-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EB6FA0B1726CA6500F05ED9 /* projectile-hd.png */; };
+		9EB6FA151726CA6500F05ED9 /* projectile.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EB6FA0C1726CA6500F05ED9 /* projectile.png */; };
+		9EB6FA161726CA6500F05ED9 /* background-music-aac.caf in Resources */ = {isa = PBXBuildFile; fileRef = 9EB6FA0E1726CA6500F05ED9 /* background-music-aac.caf */; };
+		9EB6FA171726CA6500F05ED9 /* pew-pew-lei.caf in Resources */ = {isa = PBXBuildFile; fileRef = 9EB6FA0F1726CA6500F05ED9 /* pew-pew-lei.caf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -400,6 +408,14 @@
 		9EB6F9FC1726BDB100F05ED9 /* IntroLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntroLayer.h; sourceTree = "<group>"; };
 		9EB6F9FD1726BDB100F05ED9 /* IntroLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntroLayer.m; sourceTree = "<group>"; };
 		9EB6FA041726BEA000F05ED9 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		9EB6FA071726CA6500F05ED9 /* monster-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "monster-hd.png"; sourceTree = "<group>"; };
+		9EB6FA081726CA6500F05ED9 /* monster.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monster.png; sourceTree = "<group>"; };
+		9EB6FA091726CA6500F05ED9 /* player-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "player-hd.png"; sourceTree = "<group>"; };
+		9EB6FA0A1726CA6500F05ED9 /* player.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = player.png; sourceTree = "<group>"; };
+		9EB6FA0B1726CA6500F05ED9 /* projectile-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "projectile-hd.png"; sourceTree = "<group>"; };
+		9EB6FA0C1726CA6500F05ED9 /* projectile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = projectile.png; sourceTree = "<group>"; };
+		9EB6FA0E1726CA6500F05ED9 /* background-music-aac.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "background-music-aac.caf"; sourceTree = "<group>"; };
+		9EB6FA0F1726CA6500F05ED9 /* pew-pew-lei.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "pew-pew-lei.caf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -475,6 +491,8 @@
 		9EB6F87F1726BDAF00F05ED9 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				9EB6FA061726CA6500F05ED9 /* Art */,
+				9EB6FA0D1726CA6500F05ED9 /* Sounds */,
 				9EB6F8801726BDAF00F05ED9 /* Default.png */,
 				9EB6F8821726BDB000F05ED9 /* Default-Landscape~ipad.png */,
 				9EB6F8841726BDB000F05ED9 /* fps_images.png */,
@@ -835,6 +853,28 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		9EB6FA061726CA6500F05ED9 /* Art */ = {
+			isa = PBXGroup;
+			children = (
+				9EB6FA071726CA6500F05ED9 /* monster-hd.png */,
+				9EB6FA081726CA6500F05ED9 /* monster.png */,
+				9EB6FA091726CA6500F05ED9 /* player-hd.png */,
+				9EB6FA0A1726CA6500F05ED9 /* player.png */,
+				9EB6FA0B1726CA6500F05ED9 /* projectile-hd.png */,
+				9EB6FA0C1726CA6500F05ED9 /* projectile.png */,
+			);
+			path = Art;
+			sourceTree = "<group>";
+		};
+		9EB6FA0D1726CA6500F05ED9 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				9EB6FA0E1726CA6500F05ED9 /* background-music-aac.caf */,
+				9EB6FA0F1726CA6500F05ED9 /* pew-pew-lei.caf */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -862,6 +902,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = demo.HolyenZou.com;
 			};
 			buildConfigurationList = 9EB6F8641726BDAF00F05ED9 /* Build configuration list for PBXProject "Cocos2DSimpleGame" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -899,6 +940,14 @@
 				9EB6F8981726BDB000F05ED9 /* iTunesArtwork in Resources */,
 				9EB6F9D61726BDB100F05ED9 /* ChangeLog in Resources */,
 				9EB6FA051726BEA000F05ED9 /* Default-568h@2x.png in Resources */,
+				9EB6FA101726CA6500F05ED9 /* monster-hd.png in Resources */,
+				9EB6FA111726CA6500F05ED9 /* monster.png in Resources */,
+				9EB6FA121726CA6500F05ED9 /* player-hd.png in Resources */,
+				9EB6FA131726CA6500F05ED9 /* player.png in Resources */,
+				9EB6FA141726CA6500F05ED9 /* projectile-hd.png in Resources */,
+				9EB6FA151726CA6500F05ED9 /* projectile.png in Resources */,
+				9EB6FA161726CA6500F05ED9 /* background-music-aac.caf in Resources */,
+				9EB6FA171726CA6500F05ED9 /* pew-pew-lei.caf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
