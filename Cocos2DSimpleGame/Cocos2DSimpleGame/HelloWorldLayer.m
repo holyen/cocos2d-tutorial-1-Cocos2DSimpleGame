@@ -6,12 +6,8 @@
 //  Copyright __MyCompanyName__ 2013年. All rights reserved.
 //
 
-
-// Import the interfaces
 #import "HelloWorldLayer.h"
-
 #import "SimpleAudioEngine.h"
-
 #import "GameOverLayer.h"
 
 // Needed to obtain the Navigation Controller
@@ -19,7 +15,6 @@
 
 #pragma mark - HelloWorldLayer
 
-// HelloWorldLayer implementation
 @implementation HelloWorldLayer
 
 // Helper class method that creates a Scene with the HelloWorldLayer as the only child.
