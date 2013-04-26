@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		66D3D450172A4EB3008341E2 /* GameOverLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 66D3D44F172A4EB3008341E2 /* GameOverLayer.m */; };
 		9EB6F86D1726BDAF00F05ED9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB6F86C1726BDAF00F05ED9 /* QuartzCore.framework */; };
 		9EB6F86F1726BDAF00F05ED9 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB6F86E1726BDAF00F05ED9 /* OpenGLES.framework */; };
 		9EB6F8711726BDAF00F05ED9 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB6F8701726BDAF00F05ED9 /* OpenAL.framework */; };
@@ -145,6 +146,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		66D3D44E172A4EB3008341E2 /* GameOverLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameOverLayer.h; sourceTree = "<group>"; };
+		66D3D44F172A4EB3008341E2 /* GameOverLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameOverLayer.m; sourceTree = "<group>"; };
 		9EB6F8691726BDAF00F05ED9 /* Cocos2DSimpleGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cocos2DSimpleGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EB6F86C1726BDAF00F05ED9 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		9EB6F86E1726BDAF00F05ED9 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -480,6 +483,8 @@
 				9EB6F9FA1726BDB100F05ED9 /* HelloWorldLayer.m */,
 				9EB6F9FC1726BDB100F05ED9 /* IntroLayer.h */,
 				9EB6F9FD1726BDB100F05ED9 /* IntroLayer.m */,
+				66D3D44E172A4EB3008341E2 /* GameOverLayer.h */,
+				66D3D44F172A4EB3008341E2 /* GameOverLayer.m */,
 				9EB6F87F1726BDAF00F05ED9 /* Resources */,
 				9EB6F8991726BDB000F05ED9 /* libs */,
 				9EB6F9F21726BDB100F05ED9 /* Supporting Files */,
@@ -1062,6 +1067,7 @@
 				9EB6F9F81726BDB100F05ED9 /* AppDelegate.m in Sources */,
 				9EB6F9FB1726BDB100F05ED9 /* HelloWorldLayer.m in Sources */,
 				9EB6F9FE1726BDB100F05ED9 /* IntroLayer.m in Sources */,
+				66D3D450172A4EB3008341E2 /* GameOverLayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
